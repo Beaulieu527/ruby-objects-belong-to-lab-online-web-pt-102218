@@ -1,10 +1,10 @@
 class Author
 
     attr_accessor :name
-    attr_reader :author
+    attr_reader :post
 
-    def initialize (author)
+    def initialize (post)
       @name = name
-      @author = author
+      @post = post
     end
   end
